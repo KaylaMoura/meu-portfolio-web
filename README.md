@@ -6,4 +6,4 @@
 * JavaScript 
 
 ## 🔗 Veja o site online
-[Clique aqui para acessar o projeto funcionando!](https://kaylamoura.github.io/meu-portfolio-web/)https://kaylamoura.github.io/meu-portfolio-web/
+[Clique aqui para acessar o projeto funcionando!](https://kaylamoura.github.io/meu-portfolio-web/)

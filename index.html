@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayla | Desenvolvedora Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <nav class="navbar">
+    <div class="logo">
+        <img src="img/logo.png" alt="Logo Cinthya" class="logo-img">
+    </div>
+    <ul class="nav-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        
+        <section id="inicio" class="hero fade-in">
+            <p class="tagline">Meu Portifolio</p>
+            <h1>Construindo aplicações web robustas e focadas na experiência do usuário.</h1>
+            <p class="subtitle">Bem-vindo(a) ao meu espaço digital. Eu sou a Kayla.</p>
+            <a href="#projetos" class="btn-primary">Ver Projetos</a>
+        </section>
+
+        <section id="sobre" class="fade-in">
+            <h2>Minha Jornada</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Minha jornada na tecnologia não começou apenas olhando para telas, mas sim lidando diretamente com o público. Minha experiência prévia em atendimento no varejo e em gráficas me ensinou a habilidade mais valiosa que um desenvolvedor pode ter: a empatia. Entender a dor do cliente me faz pensar na Interação Humano-Computador (IHC) de forma natural na hora de codificar.</p>
+
+<p>Quando decidi mergulhar na tecnologia, busquei caminhos que focassem na aplicação prática e na construção real de soluções, fugindo daquelas abordagens puramente teóricas ou excessivamente matemáticas. É por isso que curso simultaneamente Engenharia de Software e Sistemas para Internet.</p>
+    <p>Gosto de ver a engrenagem girando, desde a arquitetura da informação até o botão que o usuário clica.
+
+Além de dominar HTML, CSS e JavaScript moderno, utilizo meu inglês avançado para consumir documentações originais e estar sempre alinhada com as melhores práticas globais de desenvolvimento web.</p>
+                    
+                </div>
+                <div class="skills-box">
+                    <h3>Stack Atual</h3>
+                    <ul class="skills-list">
+                        <li>HTML5 & CSS3 Semântico</li>
+                        <li>JavaScript Moderno (ES6+)</li>
+                        <li>Conceitos de IHC & Usabilidade</li>
+                        <li>Inglês Avançado</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="fade-in">
+            <h2>Projetos Recentes</h2>
+            <div class="projects-grid">
+                <article class="card">
+    <img src="img/portfoliorosa.png" alt="Preview da Plataforma de Gestão" class="card-img">
+    
+    <div class="card-content">
+        <h3>Portifolio Antigo</h3>
+        <p>Segundo site web, desenvolvido para praticar HTML, CSS e JS. O design é simples, mas foi um passo importante para consolidar meus conhecimentos básicos e entender a estrutura de um site completo.
+        </p>
+        <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        
+        <a href="https://kaylamoura.github.io/meu-segundo-portfolio/" class="btn-secondary" target="_blank">Acessar Projeto</a>
+    </div>
+</article>
+                
+                <article class="card">
+    <img src="img/croma.png" alt="Preview da Plataforma de Gestão" class="card-img">
+    
+    <div class="card-content">
+        <h3>Croma Design</h3>
+        <p>Desenvolvimento de um site ficticio para uma empresa de design, contendo portfolio e contato.</p>
+        <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        
+        <a href="https://kaylamoura.github.io/croma-design-portfolio/" class="btn-secondary" target="_blank">Acessar Projeto</a>
+    </div>
+</article>
+            </div>
+        </section>
+
+        <section id="contato" class="fade-in">
+            <h2>Vamos Conversar?</h2>
+            <p>Seja para discutir uma oportunidade, tecnologia ou boas práticas de IHC.</p>
+            <form id="contact-form" class="form-container">
+                <div class="input-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                    <span id="email-error" class="error-msg">Por favor, insira um e-mail válido.</span>
+                </div>
+                <div class="input-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Mensagem</button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
